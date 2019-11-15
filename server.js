@@ -8,5 +8,9 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (request, response) => {
-    response.send('welcome to my application')
+    response.send('welcome to my get app')
+})
+
+app.put('/', (request, response) => {
+    response.send('welcome to my put app')
 })
